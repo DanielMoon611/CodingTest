@@ -4,12 +4,15 @@ namespace CsTutorial {
     class Program {
         static void Main(string[] args) {
             int N = int.Parse(Console.ReadLine());
-            string[] nums = Console.ReadLine().Split();
-            int[] num = new int[N];
-            for (int i = 0; i < N; ++i)
-                num[i] = int.Parse(nums[i]);
-            Array.Sort(num);
-            Console.WriteLine("{0} {1}", num[0], num[N-1]);
+            string[] str = Console.ReadLine().Split();
+            int min = int.Parse(str[0]), max = int.Parse(str[0]);
+            for (int i = 0; i < N; ++i) {
+                if (int.Parse(str[i]) < min)
+                    min = int.Parse(str[i]);
+                if (int.Parse(str[i]) > max)
+                    max = int.Parse(str[i]);
+            }
+            Console.WriteLine("{0} {1}", min, max);
         }
     }
 }
