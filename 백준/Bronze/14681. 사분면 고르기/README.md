@@ -4,7 +4,7 @@
 
 ### 성능 요약
 
-메모리: 5468 KB, 시간: 48 ms
+메모리: 9328 KB, 시간: 88 ms
 
 ### 분류
 
@@ -12,13 +12,13 @@
 
 ### 제출 일자
 
-2025년 2월 14일 14:11:01
+2025년 3월 13일 15:01:32
 
 ### 문제 설명
 
 <p>A common problem in mathematics is to determine which quadrant a given point lies in. There are four quadrants, numbered from 1 to 4, as shown in the diagram below:</p>
 
-<p style="text-align: center;"><img alt="" src="" style="height:200px; width:276px"></p>
+<p style="text-align: center;"><img alt="" src="https://onlinejudgeimages.s3-ap-northeast-1.amazonaws.com/problem/14681/1.png" style="height:200px; width:276px"></p>
 
 <p>For example, the point A, which is at coordinates (12, 5) lies in quadrant 1 since both its x and y values are positive, and point B lies in quadrant 2 since its x value is negative and its y value is positive.</p>
 
