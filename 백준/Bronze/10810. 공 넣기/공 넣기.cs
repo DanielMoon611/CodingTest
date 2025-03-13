@@ -5,7 +5,6 @@ class Program {
         string[] inputs = Console.ReadLine().Split();
         int N = int.Parse(inputs[0]);
         int M = int.Parse(inputs[1]);
-        
         int[] arr = new int[N];
         
         for (int index = 0; index < M; index++) {
