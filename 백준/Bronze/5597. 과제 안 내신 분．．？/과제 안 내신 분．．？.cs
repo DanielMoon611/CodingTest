@@ -10,9 +10,8 @@ class Program {
             students[input - 1] = input;
         }
         
-        for (int j = 0; j < students.Length; ++j) {
+        for (int j = 0; j < students.Length; ++j)
             if (students[j] == 0)
                 Console.WriteLine(j + 1);
-        }
     }
 }
